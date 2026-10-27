@@ -2,7 +2,7 @@
 
 #include "../stdlib.fc";
 
-const int DEFAULT_DURATION = 3600 * 24 * 365 / 12; ;; half of a year, can top-up by publishing the same library again
+const int DEFAULT_DURATION = 3600 * 24 * 365 / 12; ;; one month (not half a year). Since global version 15 the library cannot be published again: keep the bricked librarian funded with non-bounceable transfers (scripts/topUpLibrarian.ts)
 const int ONE_TON = 1000000000;
 
 cell empty() asm "<b b> PUSHREF";
